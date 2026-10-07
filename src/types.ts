@@ -6,7 +6,7 @@ export interface Project {
   description: string;
   longDescription: string;
   technologies: string[];
-  category: 'Healthcare AI' | 'Healthcare Analytics' | 'FinTech / Payments';
+  category: 'Healthcare AI' | 'Healthcare Analytics' | 'FinTech / Payments'|'E-Commerce Analytics';
   highlights: string[];
   metrics?: { label: string; value: string }[];
   githubUrl?: string;

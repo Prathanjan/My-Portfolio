@@ -91,6 +91,47 @@ export const skillsData: SkillItem[] = [
 
 export const projectsData: Project[] = [
   {
+    id: "ecommerce-profit-leakage-analytics",
+    title: "E-Commerce Profit Leakage & Returns Analytics",
+    subtitle: "LeakageIQ — E-Commerce Profit & Returns Analytics Platform",
+    status: "Completed",
+    description:
+      "A multi-user analytics platform that identifies revenue loss, return impact, cost drivers, and measurable profit leakage from e-commerce data.",
+    longDescription:
+      "LeakageIQ is a full-stack data analytics platform where users can securely upload CSV or XLSX e-commerce datasets and generate interactive dashboards for revenue, returns, profitability, products, customers, regions, trends, and profit leakage analysis. The platform includes multi-user authentication, strict dataset isolation, automated data validation and normalization, and PostgreSQL-based analytics.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Neon",
+      "JWT",
+      "Recharts"
+    ],
+    category: "E-Commerce Analytics",
+    highlights: [
+      "Multi-user authentication with strict dataset isolation",
+      "CSV and XLSX data ingestion with schema reconciliation and validation",
+      "Interactive analytics for revenue, returns, profitability, products, customers, regions, and trends",
+      "Profit leakage analysis covering returns, refunds, discounts, shipping, and other measurable costs",
+      "Secure REST API with JWT authentication and token revocation"
+    ],
+    metrics: [
+      { label: "Project Status", value: "Completed" },
+      { label: "Security Tests", value: "21/21 Passed" },
+      { label: "Data Sources", value: "CSV + XLSX" }
+    ],
+    githubUrl:
+      "https://github.com/Prathanjan/ecommerce-profit-leakage-analytics",
+    demoUrl:
+      "https://ecommerce-profit-leakage-analytics.vercel.app",
+    isCollaborativeAcademic: false
+  },
+
+
+  {
     id: "medassist-ai",
     title: "MedAssist AI",
     subtitle: "AI-Powered Healthcare Guidance Assistant",
